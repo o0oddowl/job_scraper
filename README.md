@@ -32,7 +32,6 @@ job_scraper/
 ├── html_file/
 │ └── robotauapage1.html, robotauapage2.html, ..., ~robotauapage5000.html # HTML pages saved by the script
 │
-├── README.md
 └── requirements.txt
 ```
 ---
@@ -50,9 +49,13 @@ pip install -r requirements.txt
 
 ## 🚀 Running the Scrapers
 To run the Work.ua scraper:
-    python3.11 -m src.scraper.workua_scraper
+```bash
+python3.11 -m src.scraper.workua_scraper
+```
 To run the Robota.ua scraper:
-    python3.11 -m src.scraper.robotaua_scraper
-
+```bash
+python3.11 -m src.scraper.robotaua_scraper
+```
+---
 Note: A `main.py` file was considered for simplified execution, but the decision was made to run scrapers individually.
 
