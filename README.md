@@ -37,7 +37,7 @@ work_title,company_name,city,min_salary,max_salary,url
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure:
 ```text
 job_scraper/
 ├── src/
@@ -59,18 +59,18 @@ job_scraper/
 ```
 ---
 
-## ⚙️ Requirements
+## ⚙️ Requirements:
 - Python 3.11
 - Firefox (used with Selenium — can be replaced with another browser in the code)
 
-### Python Libraries
+### Python Libraries:
 Install dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
 ---
 
-## 🚀 Running the Scrapers
+## 🚀 Running the Scrapers:
 To run the Work.ua scraper:
 ```bash
 python3.11 -m src.scraper.workua_scraper
