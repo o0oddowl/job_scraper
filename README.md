@@ -14,6 +14,29 @@ It enables the collection, storage, and analysis of up-to-date job listings in U
 
 ---
 
+## Output Data (JSON):
+```bash
+ {
+    "work_title": "Адміністратор офісу, офіс-менеджер",
+    "company": "Красюк О.В., ФОП",
+    "city": "Харків",
+    "min_salary": 25000,
+    "max_salary": 40000,
+    "url": "https://www.work.ua/jobs/6955552/"
+}
+```
+
+## Output Data (CSV):
+```bash
+work_title,company_name,city,min_salary,max_salary,url                                                                                                                                                                                 
+"Адміністратор офісу, офіс-менеджер","Красюк О.В., ФОП","Харків, ",25000,40000,https://www.work.ua/jobs/6955552/
+"Менеджер з продажу, оренди нерухомості (з навчанням, ст. м. Золоті Ворота)","Flatprime, АН","Київ, ",60000,120000,https://www.work.ua/jobs/5976294/
+ Касир в магазин Nike,Делта Спорт,"Київ, ",28000,30000,https://www.work.ua/jobs/6910303/
+ Садівник,TOPIAR,"Київ, ",30000,45000,https://www.work.ua/jobs/6572533/
+```
+
+---
+
 ## 📁 Project Structure
 ```text
 job_scraper/
