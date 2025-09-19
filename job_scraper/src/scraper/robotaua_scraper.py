@@ -4,7 +4,6 @@ import random
 import time
 import re
 
-import fake_useragent
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
